@@ -4,20 +4,11 @@ description = "An introduction to Beamstack"
 weight = 1
 +++
 
-## What is Beamstack
+## What is Beamstack?
 
 Beamstack is an open-source framework currently under development, aimed at facilitating the deployment of Machine Learning and GenAI workflow pipelines with Apache Beam on Kubernetes. 
 
 Beamstack provides a robust Command Line Interface (CLI) that can potentially reduce pipeline deployment complexity and timelines drastically. It also possesses great monitoring and visualization features. Beamstack makes AI/ML on Kubernetes simple, portable, and scalable.
-
-## What are Standalone Beamstack Components
-
-The Beamstack ecosystem is composed of multiple open-source projects such as [Apache Beam](https://beam.apache.org/) and [Kubernetes](https://kubernetes.io/) that address different aspects
-of the ML lifecycle. Many of these projects are designed to be usable both within the Beamstack Platform and independently.
-
-## Beamstack Overview Diagram
-
-The following diagram shows the main Beamstack components and their interactions
 
 <img src="/docs/getting-started/images/architecture-light.png"
   alt="Beamstack overview"
@@ -25,6 +16,23 @@ The following diagram shows the main Beamstack components and their interactions
 
 Read the [architecture overview](/docs/getting-started/architecture/) to learn about the Beamstack ecosystem
 and to see how Beamstack components fit in ML lifecycle.
+
+## Why Beamstack?
+Deploying machine learning and GenAI workflows should be easy. By extension, managing those workflows should be easy as well, beamstack offers a solution that streamlines the deployment process of complex workflows. It is an open-source tool, easy to understand, and versatile. 
+
+## How it works
+> Regardless of your environment, setup or operating system, Beamstack takes your Beam YAML file with defined specifications and resources, processes it and allows a kubernetes cluster to be spun up with given specifications. 
+
+> The Kubernetes operator runners such as Flink operator, Spark operator etc take up the job and spins up a worker pool that contain beamstack harnesses. 
+
+> Beamstack enusres that your data is migrated from your local device or remote machine to the pipeline. 
+
+> Once the pipeline has been deployed, users can up the flink UI and Grafana dashboard to visually inspect the pipeline and derive insights about it's performance.
+
+## What are Standalone Beamstack Components?
+
+The Beamstack ecosystem is composed of multiple open-source projects such as [Apache Beam](https://beam.apache.org/) and [Kubernetes](https://kubernetes.io/) that address different aspects
+of the ML lifecycle. Many of these projects are designed to be usable both within the Beamstack Platform and independently.
 
 ## The Beamstack mission
 

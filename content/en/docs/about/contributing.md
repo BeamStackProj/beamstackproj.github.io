@@ -9,13 +9,6 @@ This document is the single source of truth for how to contribute to the code ba
 We'd love to accept your patches and contributions to this project.
 There are just a few small guidelines you need to follow.
 
-## Getting Started
-
-### Follow the code of conduct
-
-Please make sure to read and observe our [Code of Conduct](https://github.com/beamstack/community/blob/master/CODE_OF_CONDUCT.md)
-and [inclusivity document](https://github.com/beamstack/community/blob/master/INCLUSIVITY.md).
-
 ## Joining the community
 
 Follow these instructions if you want to:
@@ -26,7 +19,7 @@ Follow these instructions if you want to:
 
 ### Joining the Beamstack GitHub Org
 
-Before asking to join the community, we ask that you first make a small number of contributions
+Before asking to [join the community](https://github.com/BeamStackProj/beamstack-cli), we ask that you first make a small number of contributions
 to demonstrate your intent to continue contributing to Beamstack.
 
 There are a number of ways to contribute to Beamstack:

@@ -65,7 +65,7 @@ This is the second section
 {{% /blocks/section %}} -->
 
 
-{{% blocks/section type="row" %}}
+<!-- {{% blocks/section type="row" %}}
 
 {{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
 Get the Beamstack app!
@@ -82,5 +82,5 @@ contributions workflow on **GitHub**. New users are always welcome!
 For announcement of latest features etc.
 {{% /blocks/feature %}}
 
-{{% /blocks/section %}}
+{{% /blocks/section %}} -->
 
