@@ -1,4 +1,4 @@
-baseURL: https://github.com/BeamStackProj/documentation
+baseURL: https://example.docsy.dev
 title: Beamstack
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
