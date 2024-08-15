@@ -5,9 +5,11 @@ weight = 10
 aliases = ["/docs/community/"]
 +++
 
-## Beamstack Discord Channels
+Beamstack has a rich and inclusinve community! If you are interested in innovation in the Artificial Intelligence
+and Machine Learning space, then you have come to the right place!
 
-Beamstack is part of the vibrant Apache beam community, we use the [Beamstack Discord](https://discord.gg/fYNnNVaEFK) for informal discussions among users and contributors.
+## Beamstack Discord Channels
+Beamstack is part of the vibrant apache beam community, we use the [Beamstack Discord](https://discord.gg/fYNnNVaEFK) for informal discussions among users and contributors.
 Please join the [Beamstack Discord](https://discord.gg/fYNnNVaEFK) to join the conversation and get help from the community.
 
 <a href="https://discord.gg/fYNnNVaEFK">
