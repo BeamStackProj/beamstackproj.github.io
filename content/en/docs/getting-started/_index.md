@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 description: How to get started with Beamstack
-categories: [Examples, Placeholders]
-tags: [test, docs]
+categories: [Getting started, About]
+tags: [contribute, docs, architecture]
 weight: 2
 ---

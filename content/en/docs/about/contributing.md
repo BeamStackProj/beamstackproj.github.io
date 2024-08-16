@@ -19,9 +19,6 @@ Follow these instructions if you want to:
 
 ### Joining the Beamstack GitHub Org
 
-Before asking to [join the community](https://github.com/BeamStackProj/beamstack-cli), we ask that you first make a small number of contributions
-to demonstrate your intent to continue contributing to Beamstack.
-
 There are a number of ways to contribute to Beamstack:
 
 - Submit PRs
