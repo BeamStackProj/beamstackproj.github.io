@@ -5,12 +5,11 @@ weight = 10
 aliases = ["/docs/community/"]
 +++
 
-Beamstack has a rich and inclusinve community! If you are interested in innovation in the Artificial Intelligence
-and Machine Learning space, then you have come to the right place!
+Beamstack is a community of users developing reusable components for GenAI and ML workflow to simplify and make it easy to deploy and manage ML workloads from easily composable low-code components
 
 ## Beamstack Discord Channels
-Beamstack is part of the vibrant apache beam community, we use the [Beamstack Discord](https://discord.gg/fYNnNVaEFK) for informal discussions among users and contributors.
-Please join the [Beamstack Discord](https://discord.gg/fYNnNVaEFK) to join the conversation and get help from the community.
+Come join us and make Beamstack better, we are looking for contributors to add components, review components and make it easy for users to get onboarded.
+Please join the [Beamstack Discord](https://discord.gg/fYNnNVaEFK).
 
 <a href="https://discord.gg/fYNnNVaEFK">
   <button class="btn btn-primary py-2 px-5 mb-3">Click to join:<br><b>Beamstack Slack</b></button>
