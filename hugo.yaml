@@ -85,8 +85,8 @@ markup:
 # Everything below this are Site Params
 
 # Comment out if you don't want the "print entire section" link enabled.
-outputs:
-  section: [HTML, print, RSS]
+# outputs:
+#   section: [HTML, print, RSS]
 
 params:
   taxonomy:
