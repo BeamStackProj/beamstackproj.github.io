@@ -13,11 +13,17 @@ There are just a few small guidelines you need to follow.
 
 Follow these instructions if you want to:
 
-- Become a member of the Beamstack GitHub org (see below)
+- Become a member of the Beamstack GitHub Org (see below)
 - Become part of the Beamstack build teams or release teams
 - Be recognized as an individual or organization contributing to Beamstack
 
 ### Joining the Beamstack GitHub Org
+
+- First step is to join the discord channel
+- In the [join-beamstack](https://discord.gg/5jxWcupaQM) channel, create a request to join the org
+- Follow the prompts to get onboarded
+
+### Contributing to the Beamstack Project
 
 There are a number of ways to contribute to Beamstack:
 
