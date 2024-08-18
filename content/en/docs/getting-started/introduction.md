@@ -21,13 +21,13 @@ and to see how Beamstack components fit in ML lifecycle.
 Deploying machine learning and GenAI workflows should be easy. By extension, managing those workflows should be easy as well, beamstack offers a solution that streamlines the deployment process of complex workflows. It is an open-source tool, easy to understand, and versatile. 
 
 ## How it works
-> Regardless of your environment, setup or operating system, Beamstack takes your Beam YAML file with defined specifications and resources, processes it and allows a kubernetes cluster to be spun up with given specifications. 
+> Beamstack quickly sets up your Kubernetes cluster with all necessary resources, like operators, CRDs, and monitoring, so you can run Beam workflows, regardless of your environment.
 
-> The Kubernetes operator runners such as Flink operator, Spark operator etc take up the job and spins up a worker pool that contain beamstack harnesses. 
+> Beamstack analyzes your Beam YAML file and automatically migrates any referenced data from your host device to a persistent storage volume on your Kubernetes cluster, aiding in pipeline prototyping.
 
-> Beamstack enusres that your data is migrated from your local device or remote machine to the pipeline. 
+> Beamstack then runs the pipeline in your already initialized cluster.
 
-> Once the pipeline has been deployed, users can up the flink UI and Grafana dashboard to visually inspect the pipeline and derive insights about it's performance.
+>  Beamstack provides helper functions to view pipelines on a Grafana dashboard and access the pipeline runner UI, like Flink UI.
 
 ## The Beamstack mission
 

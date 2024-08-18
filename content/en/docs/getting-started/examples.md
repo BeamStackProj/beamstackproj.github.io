@@ -29,16 +29,16 @@ beamstack info
 beamstack info cluster
 ```
 
-### Create a flink cluster
+### Create a runner cluster
 
 ``` go
-beamstack create flink-cluster [cluster-name]
+beamstack create [runner-cluster] [cluster-name]
 ```
 
-### Open flink UI
+### Open runner UI
 
 ``` go
-beamstack open flink [flink-cluster-name]
+beamstack open [runner] [runner-cluster-name]
 ```
 
 ### Open Grafana dashboard
