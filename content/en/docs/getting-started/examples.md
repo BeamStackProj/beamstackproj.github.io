@@ -50,5 +50,11 @@ beamstack open dashboard
 ### Deploy a pipeline
 
 ``` go
-beamstack deploy pipeline [FILE]
+beamstack deploy pipeline [FILE] [flags]
+```
+
+### Create a vector store
+
+``` go
+beamstack create vector-store --type=elasticsearch
 ```

@@ -29,11 +29,6 @@ Deploying machine learning and GenAI workflows should be easy. By extension, man
 
 > Once the pipeline has been deployed, users can up the flink UI and Grafana dashboard to visually inspect the pipeline and derive insights about it's performance.
 
-## What are Standalone Beamstack Components?
-
-The Beamstack ecosystem is composed of multiple open-source projects such as [Apache Beam](https://beam.apache.org/) and [Kubernetes](https://kubernetes.io/) that address different aspects
-of the ML lifecycle. Many of these projects are designed to be usable both within the Beamstack Platform and independently.
-
 ## The Beamstack mission
 
 Our goal is to make the deployment of AI/ML Pipelines effortless and time efficienct. Beamstack extends already existing features of kubernetes: 
@@ -41,12 +36,7 @@ Our goal is to make the deployment of AI/ML Pipelines effortless and time effici
 - Easy, repeatable, portable deployments on a diverse infrastructure
   (for example, experimenting on a laptop, then moving to an on-premises
   cluster or to the cloud)
-- Deploying and managing loosely-coupled microservices
 - Scaling based on demand
-
-Because ML practitioners use a diverse set of tools, one of the key goals is to
-customize the stack based on user requirements (within reason) and let the
-system take care of the "boring stuff".
 
 ## History
 
