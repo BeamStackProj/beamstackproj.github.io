@@ -69,6 +69,13 @@ languages:
       time_format_blog: 2006.01.02
   # cSpell:enable
 
+menu:
+  main:
+    - name: GitHub
+      weight: 40
+      url: 'https://github.com/BeamStackProj/beamstack-cli'
+      pre: <i class='fab fa-github'></i>
+
 markup:
   goldmark:
     parser:
