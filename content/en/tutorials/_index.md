@@ -6,5 +6,5 @@ type: docs
 ---
 
 {{% pageinfo %}}
-This is the single source of truth for all things Bemastack
+This page contains several step by step tutorials on beamstack and it's use cases
 {{% /pageinfo %}}
