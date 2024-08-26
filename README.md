@@ -1,184 +1,67 @@
-# Docsy Example
+# Beamstack Website
 
-[Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
-site navigation, structure, and more. This **Docsy Example Project** uses the Docsy
-theme component as a hugo module and provides a skeleton documentation structure for you to use.
-You can clone/copy this project and edit it with your own content, or use it as an example.
+We use [Hugo](https://gohugo.io/) to format and generate our website, the
+[Docsy](https://github.com/google/docsy) theme for styling and site structure,
+and [Netlify](https://www.netlify.com/) to manage the deployment of the site.
+Hugo is an open-source static site generator that provides us with templates,
+content organisation in a standard directory structure, and a website generation
+engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps them up into a website.
 
-In this project, the Docsy theme is pulled in as a Hugo module, together with
-its dependencies:
+All submissions, including submissions by project members, require review. We
+use GitHub pull requests for this purpose. Consult
+[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
+information on using pull requests.
 
-```console
-$ hugo mod graph
-...
-```
+## Quick start with Netlify
 
-For Docsy documentation, see [Docsy user guide][].
+Here's a quick guide to updating the docs. It assumes you're familiar with the
+GitHub workflow and you're happy to use the automated preview of your doc
+updates:
 
-This Docsy Example Project is hosted on [Netlify][] at [example.docsy.dev][].
-You can view deploy logs from the [deploy section of the project's Netlify
-dashboard][deploys], or this [alternate dashboard][].
+1. Fork the [Beamstack repo](https://github.com/BeamStackProj/website) on GitHub.
+1. Make your changes and send a pull request (PR).
+1. If you're not yet ready for a review, add "WIP" to the PR name to indicate
+  it's a work in progress. (**Don't** add the Hugo property
+  "draft = true" to the page front matter, because that prevents the
+  auto-deployment of the content preview described in the next point.)
+1. Wait for the automated PR workflow to do some checks. When it's ready,
+  you should see a comment like this: **deploy/netlify — Deploy preview ready!**
+1. Click **Details** to the right of "Deploy preview ready" to see a preview
+  of your updates.
+1. Continue updating your doc and pushing your changes until you're happy with
+  the content.
+1. When you're ready for a review, add a comment to the PR, and remove any
+  "WIP" markers.
 
-This is not an officially supported Google product. This project is currently maintained.
+## Updating a single page
 
-## Using the Docsy Example Project as a template
+If you've just spotted something you'd like to change while using the docs, Docsy has a shortcut for you:
 
-A simple way to get started is to use this project as a template, which gives you a site project that is set up and ready to use. To do this:
+1. Click **Edit this page** in the top right hand corner of the page.
+1. If you don't already have an up to date fork of the project repo, you are prompted to get one - click **Fork this repository and propose changes** or **Update your Fork** to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.
+1. Follow the rest of the [Quick start with Netlify](#quick-start-with-netlify) process above to make, preview, and propose your changes.
 
-1. Use the dropdown for switching branches/tags to change to the **latest** released tag.
+## Previewing your changes locally
 
-2. Click **Use this template**.
+If you want to run your own local Hugo server to preview your changes as you work:
 
-3. Select a name for your new project and click **Create repository from template**.
+1. Follow the instructions in [Getting started](/docs/getting-started) to install Hugo and any other tools you need. You'll need at least **Hugo version 0.45** (we recommend using the most recent available version), and it must be the **extended** version, which supports SCSS.
+1. Fork the [Beamstack repo](https://github.com/google/docsy-example) repo into your own project, then create a local copy using `git clone`. Don’t forget to use `--recurse-submodules` or you won’t pull down some of the code you need to generate a working site.
 
-4. Make your own local working copy of your new repo using git clone, replacing https://github.com/me/example.git with your repo’s web URL:
+    ```
+    git clone --recurse-submodules --depth 1 https://github.com/BeamStackProj/website.git
+    ```
 
-```bash
-git clone --depth 1 https://github.com/me/example.git
-```
+1. Run `hugo server` in the site root directory. By default your site will be available at http://localhost:1313/. Now that you're serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.
+1. Continue with the usual GitHub workflow to edit files, commit them, push the
+  changes up to your fork, and create a pull request.
 
-You can now edit your own versions of the site’s source files.
+## Creating an issue
 
-If you want to do SCSS edits and want to publish these, you need to install `PostCSS`
+If you've found a problem in the docs, but you're not sure how to fix it yourself, please create an issue in the [Beamstack repo](https://github.com/BeamStackProj/website/issues). You can also create an issue about a specific page by clicking the **Create Issue** button in the top right hand corner of the page.
 
-```bash
-npm install
-```
+## Useful resources
 
-## Running the website locally
-
-Building and running the site locally requires a recent `extended` version of [Hugo](https://gohugo.io).
-You can find out more about how to install Hugo for your environment in our
-[Getting started](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation) guide.
-
-Once you've made your working copy of the site repo, from the repo root folder, run:
-
-```bash
-hugo server
-```
-
-## Running a container locally
-
-You can run docsy-example inside a [Docker](https://docs.docker.com/)
-container, the container runs with a volume bound to the `docsy-example`
-folder. This approach doesn't require you to install any dependencies other
-than [Docker Desktop](https://www.docker.com/products/docker-desktop) on
-Windows and Mac, and [Docker Compose](https://docs.docker.com/compose/install/)
-on Linux.
-
-1. Build the docker image
-
-   ```bash
-   docker-compose build
-   ```
-
-1. Run the built image
-
-   ```bash
-   docker-compose up
-   ```
-
-   > NOTE: You can run both commands at once with `docker-compose up --build`.
-
-1. Verify that the service is working.
-
-   Open your web browser and type `http://localhost:1313` in your navigation bar,
-   This opens a local instance of the docsy-example homepage. You can now make
-   changes to the docsy example and those changes will immediately show up in your
-   browser after you save.
-
-### Cleanup
-
-To stop Docker Compose, on your terminal window, press **Ctrl + C**.
-
-To remove the produced images run:
-
-```bash
-docker-compose rm
-```
-For more information see the [Docker Compose documentation][].
-
-## Using a local Docsy clone
-
-Make sure your installed go version is `1.18` or higher.
-
-Clone the latest version of the docsy theme into the parent folder of your project. The newly created repo should now reside in a sibling folder of your site's root folder.
-
-```shell
-cd root-of-your-site
-git clone --branch v0.7.2 https://github.com/google/docsy.git ../docsy
-```
-
-Now run:
-
-```shell
-HUGO_MODULE_WORKSPACE=docsy.work hugo server --ignoreVendorPaths "**"
-```
-
-or, when using npm, prepend `local` to the script you want to invoke, e.g.:
-
-```shell
-npm run local serve
-```
-
-By using the `HUGO_MODULE_WORKSPACE` directive (either directly or via prefix `local` when using npm), the server now watches all files and directories inside the sibling directory `../docsy` , too. Any changes inside the local `docsy` theme clone are  now immediately picked up (hot reload), you can instantly see the effect of your local edits.
-
-In the command above, we used the environment variable `HUGO_MODULE_WORKSPACE` to tell hugo about the local workspace file `docsy.work`. Alternatively, you can declare the workspace file inside your settings file `hugo.toml`:
-
-```toml
-[module]
-  workspace = "docsy.work"
-```
-
-Your project's `hugo.toml` file already contains these lines, the directive for workspace assignment is commented out, however. Remove the two trailing comment characters '//' so that this line takes effect.
-
-## Troubleshooting
-
-As you run the website locally, you may run into the following error:
-
-```console
-$ hugo server
-WARN 2023/06/27 16:59:06 Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
-Start building sites …
-hugo v0.101.0-466fa43c16709b4483689930a4f9ac8add5c9f66+extended windows/amd64 BuildDate=2022-06-16T07:09:16Z VendorInfo=gohugoio
-Error: Error building site: "C:\Users\foo\path\to\docsy-example\content\en\_index.md:5:1": failed to extract shortcode: template for shortcode "blocks/cover" not found
-Built in 27 ms
-```
-
-This error occurs if you are running an outdated version of Hugo. As of docsy theme version `v0.7.0`, hugo version `0.110.0` or higher is required.
-See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-hugo) of the user guide for instructions on how to install Hugo.
-
-Or you may be confronted with the following error:
-
-```console
-$ hugo server
-
-INFO 2021/01/21 21:07:55 Using config file:
-Building sites … INFO 2021/01/21 21:07:55 syncing static files to /
-Built in 288 ms
-Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-scss): resource "scss/scss/main.scss_9fadf33d895a46083cdd64396b57ef68" not found in file cache
-```
-
-This error occurs if you have not installed the extended version of Hugo.
-See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-hugo) of the user guide for instructions on how to install Hugo.
-
-Or you may encounter the following error:
-
-```console
-$ hugo server
-
-Error: failed to download modules: binary with name "go" not found
-```
-
-This error occurs if you have not installed the `go` programming language on your system.
-See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-go-language) of the user guide for instructions on how to install `go`.
-
-
-[alternate dashboard]: https://app.netlify.com/sites/Beamstack/deploys
-[deploys]: https://app.netlify.com/sites/docsy-example/deploys
-[Docsy user guide]: https://docsy.dev/docs
-[Docsy]: https://github.com/google/docsy
-[example.docsy.dev]: https://example.docsy.dev
-[Hugo theme module]: https://gohugo.io/hugo-modules/use-modules/#use-a-module-for-a-theme
-[Netlify]: https://netlify.com
-[Docker Compose documentation]: https://docs.docker.com/compose/gettingstarted/
+* [Docsy user guide](https://www.docsy.dev/docs/): All about Docsy, including how it manages navigation, look and feel, and multi-language support.
+* [Hugo documentation](https://gohugo.io/documentation/): Comprehensive reference for Hugo.
+* [Github Hello World!](https://guides.github.com/activities/hello-world/): A basic introduction to GitHub concepts and workflow.
