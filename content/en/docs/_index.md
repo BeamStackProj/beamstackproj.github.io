@@ -1,6 +1,6 @@
 ---
 title: Documentation
-linkTitle: Docs
+linkTitle: Documentation
 menu: {main: {weight: 10, pre: <i class='fa-solid fa-book'></i>}}
 ---
 
