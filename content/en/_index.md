@@ -11,6 +11,10 @@ title: Beamstack
   Contribute <i class="fab fa-github ms-2 "></i>
 </a>
 {{< blocks/link-down color="info" >}}
+<img src="/beamstack.png"
+  alt="Beamstack as an abstraction layer"
+  class="mt-3 mb-3"
+  width="1200">
 {{< /blocks/cover >}}
 
 {{% blocks/lead color="secondary" %}}
