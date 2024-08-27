@@ -19,8 +19,7 @@ Follow these instructions if you want to:
 
 ### Joining the Beamstack GitHub Org
 
-- First step is to join the discord channel
-- In the [join-beamstack](https://discord.gg/5jxWcupaQM) channel, create a request to join the org
+- First step is to join the [discord channel](https://discord.gg/fYNnNVaEFK)
 - Follow the prompts to get onboarded
 
 ### Contributing to the Beamstack Project

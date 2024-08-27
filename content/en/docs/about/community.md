@@ -12,7 +12,7 @@ Come join us and make Beamstack better, we are looking for contributors to add c
 Please join the [Beamstack Discord](https://discord.gg/fYNnNVaEFK).
 
 <a href="https://discord.gg/fYNnNVaEFK">
-  <button class="btn btn-primary py-2 px-5 mb-3">Click to join:<br><b>Beamstack Slack</b></button>
+  <button class="btn btn-primary py-2 px-5 mb-3">Click to join:<br><b>Beamstack Discord</b></button>
 </a>
 
 <img src="{{< param prefixURL >}}/docs/about/images/featured-background.png"

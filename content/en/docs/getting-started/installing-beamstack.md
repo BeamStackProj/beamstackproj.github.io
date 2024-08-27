@@ -25,7 +25,6 @@ beamstack -h
 5. You should see a list of available beamstack commands if installed properly.
 
 ## Next steps
-
-- Review our [introduction to Beamstack](/docs/getting-started/introduction/).
-- Explore the [architecture of Beamstack](/docs/getting-started/architecture).
 - Check out [beamstack code examples](/docs/getting-started/examples/).
+
+

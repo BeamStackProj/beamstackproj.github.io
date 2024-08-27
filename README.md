@@ -12,15 +12,7 @@ use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
 
-## Updating a single page
-
-If you've just spotted something you'd like to change while using the docs, Docsy has a shortcut for you:
-
-1. Click **Edit this page** in the top right hand corner of the page.
-1. If you don't already have an up to date fork of the project repo, you are prompted to get one - click **Fork this repository and propose changes** or **Update your Fork** to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.
-1. Follow the rest of the [Quick start with Netlify](#quick-start-with-netlify) process above to make, preview, and propose your changes.
-
-## Previewing your changes locally
+## Proposing & previewing your changes locally
 
 If you want to run your own local Hugo server to preview your changes as you work:
 
@@ -28,10 +20,10 @@ If you want to run your own local Hugo server to preview your changes as you wor
 1. Fork the [Website repo](https://github.com/BeamStackProj/website) repo into your own project, then create a local copy using `git clone`. Don’t forget to use `--recurse-submodules` or you won’t pull down some of the code you need to generate a working site.
 
     ```
-    git clone --recurse-submodules --depth 1 https://github.com/BeamStackProj/website.git
+    git clone --recurse-submodules --depth 1 https://github.com/BeamStackProj/website
     ```
 
-1. Run `hugo server` in the site root directory. By default your site will be available at http://localhost:1313/. Now that you're serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.
+1. Run `hugo server` in the site root directory. By default your site will be available at http://localhost:1313/website. Now that you're serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.
 1. Continue with the usual GitHub workflow to edit files, commit them, push the
   changes up to your fork, and create a pull request.
 

@@ -48,7 +48,7 @@ languages:
     languageName: English
     title: Beamstack
     params:
-      description: A Docsy example site
+      description: Beamstack Project Documentation
   # cSpell:disable
   # cSpell:enable
 
