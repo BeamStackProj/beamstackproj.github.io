@@ -8,7 +8,7 @@ This guide introduces the technical concepts Beamstack was built upon.
 
 ## Abstraction Layers
 
-Beamstack functions as a sophisticated low-code abstraction layer designed to streamline the deployment of machine learning (ML) pipeline components. By providing a high-level interface that simplifies complex operations, Beamstack eliminates the need for direct modifications to underlying software development kits (SDKs) and APIs. This abstraction not only reduces the cognitive load associated with setting up ML workflows but also enhances accessibility for users across various expertise levels, from novices to advanced practitioners.  
+Beamstack functions as a low-code abstraction layer designed to streamline the deployment of machine learning (ML) pipeline components. By providing a high-level interface that simplifies complex operations, Beamstack eliminates the need for direct modifications to underlying software development kits (SDKs) and APIs. This abstraction not only reduces the cognitive load associated with setting up ML workflows but also enhances accessibility for users across various expertise levels, from novices to advanced practitioners.  
 
 This entails:  
 
@@ -81,9 +81,9 @@ This entails:
   width="900">
 
 
-## Infrastructure Agnosticism
+## Infrastructure Agnostic Deployment
 
-Beamstack empowers users to efficiently build and deploy machine learning (ML) pipelines across diverse development environments and operating systems. By providing a consistent and versatile platform, Beamstack ensures that users, regardless of their local setup, can seamlessly create and deploy their pipelines with minimal friction.  
+Beamstack ensures that users, regardless of their local setup, can seamlessly create and deploy their beam pipelines with minimal friction. By providing a consistent and versatile platform, Beamstack ensures that users, regardless of their local setup, can seamlessly create and deploy to local computers, baremetal boxes or any of the major cloud providers as long as they are running kubernetes.  
   
 This entails:  
 
