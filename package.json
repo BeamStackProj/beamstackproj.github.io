@@ -4,7 +4,7 @@
   "version.next": "0.10.1-dev.0-unreleased",
   "description": "Beamstack Project Documentation",
   "repository": "github:BeamStackProj/beamstack-cli",
-  "homepage": "https://example.docsy.dev",
+  "homepage": "https://beamstackproj.github.io/website",
   "author": "Docsy Authors",
   "license": "Apache-2.0",
   "bugs": "https://github.com/BeamStackProj/beamstack-cli/issues",
