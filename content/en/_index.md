@@ -29,7 +29,7 @@ deployment complexity and timelines drastically. It also possesses great monitor
 
 
 {{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="Easy ML Pipeline Deployment" url="/docs/getting-started/" %}}
+{{% blocks/feature icon="fa-lightbulb" title="Easy ML Pipeline Deployment" url="{{< param prefixURL >}}/docs/getting-started/" %}}
 Beamstack comes with all the tools you need to deploy your pipeline across multiple environments
 
 {{% /blocks/feature %}}
