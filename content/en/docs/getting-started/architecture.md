@@ -19,7 +19,7 @@ Kubernetes and AI/ML landscapes.
 
 Beamstack pulls components directly from the registry using helm and kustomize and installs them on the kubernetes cluster.
 
-<img src="{{< param prefixURL >}}/docs/getting-started/images/initialization.png"
+<img src="{{< param prefixURL >}}/docs/getting-started/images/init.png"
   alt="Cluster Initialization using Beamstack"
   class="mt-3 mb-3"
   width="900">
