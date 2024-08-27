@@ -137,17 +137,11 @@ This entails:
   </ul>
 </details>
 
-<details>
-  <summary><b>Scalability and Portability</b></summary>
-  <ul>
-    <li><b>Scalable Solutions</b>: Beamstack is designed to scale with the needs of diverse environments, from individual workstations to large-scale cloud infrastructures. This scalability ensures that users can deploy and manage ML pipelines effectively, regardless of the size or complexity of their infrastructure.</li>
-  </ul>
-  <ul>
-    <li><b>Portable Pipelines</b>: Pipelines developed with Beamstack are portable across different environments, allowing users to easily move and deploy their workflows from development to production or from one system to another.</li>
-  </ul>
-</details>
-
 <img src="{{< param prefixURL >}}/docs/concepts/images/infrastructure-agnostic.png"
   alt="Infrastructure Agnosticism of Beamstack"
   class="mt-3 mb-3"
   width="900">
+
+## Scalability and Portability
+
+Beamstack is designed to scale with the needs of diverse environments, from individual workstations to large-scale cloud infrastructures. This scalability ensures that users can deploy and manage ML pipelines effectively, regardless of the size or complexity of their infrastructure. Pipelines developed with Beamstack are portable across different environments, allowing users to easily move and deploy their workflows from development to production or from one system to another.
