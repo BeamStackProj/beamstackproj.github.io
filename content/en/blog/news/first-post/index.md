@@ -1,11 +1,11 @@
 ---
 date: 2024-08-15
-title: Easy documentation with Docsy
-linkTitle: Announcing Docsy
+title: Announcing Beamstack
+linkTitle: Announcing Beamstack
 description: >
   The Docsy Hugo theme lets project maintainers and contributors focus on content,
   not on reinventing a website infrastructure from scratch
-author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
+author: Olufunbi Babalola
 resources:
   - src: "**.{png,jpg}"
     title: "Image #:counter"

@@ -31,7 +31,7 @@ Deploying machine learning and GenAI workflows should be easy. By extension, man
 
 ## The Beamstack mission
 
-Our goal is to make the deployment of AI/ML Pipelines effortless and time efficienct. Beamstack extends already existing features of kubernetes: 
+Our goal is to make the deployment of AI/ML Pipelines effortless and time efficient. Beamstack extends already existing features of kubernetes: 
 
 - Easy, repeatable, portable deployments on a diverse infrastructure
   (for example, experimenting on a laptop, then moving to an on-premises
@@ -53,5 +53,5 @@ There are many ways to contribute to Beamstack, and we welcome contributions!
 Read the [contributor's guide](/docs/about/contributing/) to get started on the code, and learn about the community on the [community page](/docs/about/community/).
 
 ## Next Steps
-
+- Explore the [architecture of Beamstack](/docs/getting-started/architecture).
 - Follow [the installation guide](/docs/getting-started/installing-beamstack) install Beamstack and begin easy pipeline deployments.
