@@ -1,4 +1,4 @@
-baseURL: https://beamstack.netlify.app/
+baseURL: https://beamstackproj.github.io/website
 title: Beamstack
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
