@@ -10,7 +10,7 @@ Beamstack is an open-source framework currently under development, aimed at faci
 
 Beamstack provides a robust Command Line Interface (CLI) that can potentially reduce pipeline deployment complexity and timelines drastically. It also possesses great monitoring and visualization features. Beamstack makes AI/ML on Kubernetes simple, portable, and scalable.
 
-<img src="./docs/getting-started/images/beam-arch.png"
+<img src="/docs/getting-started/images/beam-arch.png"
   alt="Beamstack overview"
   class="mt-3 mb-3">
 

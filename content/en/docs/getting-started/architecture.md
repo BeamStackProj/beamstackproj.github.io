@@ -11,7 +11,7 @@ This guide introduces Beamstack's ecosystem and explains how it fits in the ML l
 The following diagram gives an overview of the Beamstack Ecosystem and how it relates to the wider
 Kubernetes and AI/ML landscapes.
 
-<img src="./docs/getting-started/images/beam-arch.png"
+<img src="/docs/getting-started/images/beam-arch.png"
   alt="An architectural overview of Beamstack on Kubernetes"
   class="mt-3 mb-3">
 
@@ -19,7 +19,7 @@ Kubernetes and AI/ML landscapes.
 
 Beamstack pulls components directly from the registry using helm and kustomize and installs them on the kubernetes cluster.
 
-<img src="./docs/getting-started/images/initialization.png"
+<img src="/docs/getting-started/images/initialization.png"
   alt="Cluster Initialization using Beamstack"
   class="mt-3 mb-3"
   width="900">
@@ -28,7 +28,7 @@ Beamstack pulls components directly from the registry using helm and kustomize a
 
 Beamstack copies the Beam YAML pipeline file to the persistent volume, then the pipeline runners access the file from the persistent volume and create jobs.
 
-<img src="./docs/getting-started/images/deploy.png"
+<img src="/docs/getting-started/images/deploy.png"
   alt="Pipeline deployment using Beamstack"
   class="mt-3 mb-3"
   width="900">
