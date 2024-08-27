@@ -15,7 +15,7 @@ Please join the [Beamstack Discord](https://discord.gg/fYNnNVaEFK).
   <button class="btn btn-primary py-2 px-5 mb-3">Click to join:<br><b>Beamstack Slack</b></button>
 </a>
 
-<img src="https://beamstackproj.github.io/website/docs/about/featured-background.png"
+<img src="{{< param prefixURL >}}/docs/about/images/featured-background.png"
   alt="Infrastructure Agnosticism of Beamstack"
   class="mt-3 mb-3"
   width="230">
