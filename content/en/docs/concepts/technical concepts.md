@@ -67,18 +67,19 @@ This entails:
     <li><b>Resource Utilization</b>: Prometheus collects data on resource utilization across different parts of the infrastructure, such as node status, storage usage, and network traffic. Grafana dashboards present this information in an accessible and actionable format.</li>
   </ul>
 </details>
+</p>
+</p>
 
-<img src="{{< param prefixURL >}}/docs/concepts/images/dashboard.png"
-  alt="Resource monitoring"
-  class="mt-3 mb-3"
-  width="900">
+![Resource monitoring](./images/dashboard.png)
 
 <details>
   <summary><b>Intuitive Stack Configuration</b></summary>
   <ul>
     <li>Setting up and configuring the monitoring stack is streamlined through Beamstack’s CLI and graphical interfaces. Users can easily define metric sources, configure dashboards, and manage alerting rules without extensive manual setup.</li>
   </ul>
-</details>  
+</details> 
+</p>
+</p> 
   
 <img src="{{< param prefixURL >}}/docs/concepts/images/monitoring.png"
   alt="Beamstack monitoring & visualization capabilities"
