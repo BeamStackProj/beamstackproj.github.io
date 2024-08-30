@@ -68,6 +68,11 @@ This entails:
   </ul>
 </details>
 
+<img src="{{< param prefixURL >}}/docs/concepts/images/dashboard.png"
+  alt="Resource monitoring"
+  class="mt-3 mb-3"
+  width="900">
+
 <details>
   <summary><b>Intuitive Stack Configuration</b></summary>
   <ul>
@@ -138,7 +143,7 @@ This entails:
 </details>
 
 <img src="{{< param prefixURL >}}/docs/concepts/images/infrastructure-agnostic.png"
-  alt="Infrastructure Agnosticism of Beamstack"
+  alt="Infrastructure Agnostic Deployment"
   class="mt-3 mb-3"
   width="900">
 
