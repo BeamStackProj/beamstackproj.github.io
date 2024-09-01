@@ -11,6 +11,7 @@ resources:
   - src: "**.{png,jpg}"
     title: "Image #:counter"
 ---
+
 {{< imgproc beam Fit "800x300" >}}
 {{< /imgproc >}}
 
