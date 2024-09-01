@@ -44,7 +44,7 @@ Beamstack is a new open-source tool that is still currently under development. W
 
 ## Roadmaps
 
-To see what's coming up in future versions of Beamstack, refer to the [Beamstack roadmap](https://github.com/BeamStackProj/beamstack-cli).
+To see what's coming up in future versions of Beamstack, refer to the [Beamstack roadmap](https://github.com/orgs/BeamStackProj/projects/1).
 
 ## Getting involved
 
