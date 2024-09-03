@@ -1,4 +1,4 @@
-baseURL: //beamstackproj.github.io/website/
+baseURL: //beamstackproj.github.io/
 title: Beamstack
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
@@ -113,7 +113,7 @@ params:
   url_latest_version: https://example.com
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-  # github_repo: https://github.com/BeamStackProj/website
+  # github_repo: https://github.com/BeamStackProj/
 
   # An optional link to a related project repo. For example, the sibling repository where your product code lives.
   # github_project_repo: https://github.com/BeamStackProj
@@ -126,10 +126,10 @@ params:
   github_branch: main
 
   # Use this to prefix resources 'src' tags to fetch media in PRODUCTION
-  prefixURL: https://beamstackproj.github.io/website
+  prefixURL: https://beamstackproj.github.io/
 
   # Use this to prefix resources 'src' tags to fetch media in DEVELOPMENT
-  testURL: https://localhost:1313/website
+  testURL: https://localhost:1313/
 
   # Google Custom Search Engine ID. Remove or comment out to disable search.
   # gcs_engine_id: d72aa9b2712488cc3
