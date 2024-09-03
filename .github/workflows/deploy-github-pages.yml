@@ -78,3 +78,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          external_repository: beamstackproj/beamstackproj.github.io
+          publish_branch: main
+          publish_dir: ./public
