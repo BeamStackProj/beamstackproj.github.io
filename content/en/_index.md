@@ -3,7 +3,7 @@ title: Beamstack
 ---
 
 {{< blocks/cover title="Beamstack" image_anchor="top" height="full" >}}
-<p class="lead mt-5">A pipeline deployment abstraction tool for kubernetes</p>
+<p class="lead mt-5">Simplified way of deploying Apache Beam workflows on Kubernetes!</p>
 <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< param prefixURL >}}/docs/getting-started">
   Get Started <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
