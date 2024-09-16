@@ -1,5 +1,5 @@
 ---
-date: 2024-09-11
+date: 2024-09-16
 title: Launching Beamstack at the Beamsummit conference, Google Campus, Sunnyvale CA.
 linkTitle: Launching Beamstack
 description: >
