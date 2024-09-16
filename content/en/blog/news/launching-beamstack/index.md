@@ -67,7 +67,7 @@ pipeline deployment complexity and timelines drastically. It also possesses grea
 
 ### Beamstack Roadmap
 Feature Implementation
-{{< imgproc test Fit "2998x1018" >}}
+{{< imgproc roadmap Fit "2998x1018" >}}
 {{< /imgproc >}}
 
 Tasks Breakdown
